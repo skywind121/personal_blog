@@ -5,6 +5,9 @@
     
 </head>
 <body>
+@extends('admin.layout')
+
+@section('content')
 <div class="container">
     <h1>{{ $post->title }}</h1>
     <h5>{{ $post->published_at }}</h5>
@@ -17,4 +20,5 @@
     <button type="button" class="btn btn-outline-primary">Primary</button>
 </div>
 </body>
+@stop
 </html>

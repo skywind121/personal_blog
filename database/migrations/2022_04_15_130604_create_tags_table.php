@@ -4,33 +4,31 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreatePostsTable extends Migration
+class CreateTagsTable extends Migration
 {
     /**
      * Run the migrations.
-     *
-     * @return void
      */
     public function up()
     {
-        Schema::create('posts', function (Blueprint $table) {
+        Schema::create('tags', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('slug')->unique();
+            $table->string('tag')->unique();
             $table->string('title');
-            $table->text('content');
-            $table->softDeletes();
-            $table->timestamp('published_at')->nullable();
+            $table->string('subtitle');
+            $table->string('page_image');
+            $table->string('meta_description');
+            $table->string('layout')->default('blog.layouts.index');
+            $table->boolean('reverse_direction');
             $table->timestamps();
         });
     }
 
     /**
      * Reverse the migrations.
-     *
-     * @return void
      */
     public function down()
     {
-        Schema::dropIfExists('posts');
+        Schema::drop('tags');
     }
 }

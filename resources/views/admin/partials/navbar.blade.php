@@ -27,5 +27,6 @@
                 <li><a class="dropdown-item" href="/logout">登出</a></li>
             </ul>
         </div>
+        
     @endguest
 </ul>
