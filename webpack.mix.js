@@ -15,9 +15,9 @@ mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css');
 
 //Selectize 暫不支持 Bootstrap 4
-mix.combine([
+/*mix.combine([
     'node_modules/selectize/dist/css/selectize.css',
-    'node_modules/selectize/dist/css/selectize.bootstrap3.css'
+    'node_modules/selectize/dist/css/selectize.bootstrap4.css'
 ], 'public/css/selectize.default.css');
 
 mix.combine([
@@ -33,4 +33,4 @@ mix.combine([
     'node_modules/pickadate/lib/compressed/picker.js',
     'node_modules/pickadate/lib/compressed/picker.date.js',
     'node_modules/pickadate/lib/compressed/picker.time.js'
-], 'public/js/pickadate.min.js');
+], 'public/js/pickadate.min.js');*/

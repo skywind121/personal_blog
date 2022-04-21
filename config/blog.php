@@ -5,7 +5,7 @@ return [
     'subtitle' => 'https://skywindblog.com',
     'description' => '歡迎來到SkyWind Blog',
     'author' => 'SkyWind',
-    'page_image' => 'home-bg.jpg',
+    'page_image' => '/storage/upload/home-bg.jpg',
     'posts_per_page' => 5,
     'uploads' => [
         'storage' => 'public',
