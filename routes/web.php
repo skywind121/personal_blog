@@ -26,9 +26,14 @@ Route::get('/admin', function () {
     return redirect('/admin/post');
 });
 Route::middleware('auth')->group(function () {
-    Route::resource('admin/post', 'App\Http\Controllers\Admin\PostController');
+    Route::resource('admin/post', 'App\Http\Controllers\Admin\PostController', ['except' => 'show']);
     Route::resource('admin/tag', 'App\Http\Controllers\Admin\TagController');
     Route::get('admin/upload', 'App\Http\Controllers\Admin\UploadController@index');
+
+    Route::post('admin/upload/file', 'App\Http\Controllers\Admin\UploadController@uploadFile');
+    Route::delete('admin/upload/file', 'App\Http\Controllers\Admin\UploadController@deleteFile');
+    Route::post('admin/upload/folder', 'App\Http\Controllers\Admin\UploadController@createFolder');
+    Route::delete('admin/upload/folder', 'App\Http\Controllers\Admin\UploadController@deleteFolder');
 });
 
 //login logout
