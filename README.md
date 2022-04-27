@@ -34,24 +34,31 @@
 
 ## 網頁展示
 - 網站首頁
-![blog](https://user-images.githubusercontent.com/46217270/165508080-f146d152-861a-4087-a044-e26aeab5b257.PNG)
+
+<kbd>![blog](https://user-images.githubusercontent.com/46217270/165508080-f146d152-861a-4087-a044-e26aeab5b257.PNG)</kbd>
 
 - 文章列表
-![blog1](https://user-images.githubusercontent.com/46217270/165508101-02eab5b6-5916-421d-9fcc-1a635509489f.PNG)
+
+<kbd>![blog1](https://user-images.githubusercontent.com/46217270/165508101-02eab5b6-5916-421d-9fcc-1a635509489f.PNG)</kbd>
 
 - 管理後台，必須登入才能編輯文章
-![admin](https://user-images.githubusercontent.com/46217270/165508119-9ba6151d-8ceb-4fca-a0ba-f84f3ac6e06a.PNG)
+
+<kbd>![admin](https://user-images.githubusercontent.com/46217270/165508119-9ba6151d-8ceb-4fca-a0ba-f84f3ac6e06a.PNG)</kbd>
 
 - 文章編輯功能，可選擇想要編輯的文章。
-![admin1](https://user-images.githubusercontent.com/46217270/165508125-ff3344fa-bbe3-4ccd-8b3b-f644f7287e5b.PNG)
+
+<kbd>![admin1](https://user-images.githubusercontent.com/46217270/165508125-ff3344fa-bbe3-4ccd-8b3b-f644f7287e5b.PNG)</kbd>
 
 - 文章編輯界面，可修改文章的每一項内容，或者刪除文章。
-![admin4](https://user-images.githubusercontent.com/46217270/165509723-f37a5ca7-452e-49e6-9d4e-da5f25375217.PNG)
+
+<kbd>![admin4](https://user-images.githubusercontent.com/46217270/165509723-f37a5ca7-452e-49e6-9d4e-da5f25375217.PNG)</kbd>
 
 - 標籤功能，可以為文章訂立指定的標籤，標籤可作為分類的方式，以便搜尋。
-![admin2](https://user-images.githubusercontent.com/46217270/165508134-f9215a7f-d753-4297-bfc8-5ed833dba73e.PNG)
+
+<kbd>![admin2](https://user-images.githubusercontent.com/46217270/165508134-f9215a7f-d753-4297-bfc8-5ed833dba73e.PNG)</kbd>
 
 - 上傳檔案功能，圖片檔可作為背景圖片。
-![admin3](https://user-images.githubusercontent.com/46217270/165509438-e9265992-3426-4ede-91e7-f011cc82ce5e.PNG)
+
+<kbd>![admin3](https://user-images.githubusercontent.com/46217270/165509438-e9265992-3426-4ede-91e7-f011cc82ce5e.PNG)</kbd>
 
 
